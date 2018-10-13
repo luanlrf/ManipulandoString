@@ -12,8 +12,11 @@ namespace ManipelandoStrings
 {
     public partial class Form1 : Form
     {
+<<<<<<< HEAD
         
 
+=======
+>>>>>>> 1cce52bb4fc0aeaf81af48f7b7dd53d87b8a7d91
         public Form1()
         {
             InitializeComponent();
@@ -87,6 +90,7 @@ namespace ManipelandoStrings
             //trim vai eliminar os espaços do label1
             label1.Text = "resultado : "+textBox1.Text.Trim();
         }
+<<<<<<< HEAD
 
         private void button10_Click(object sender, EventArgs e)
         {
@@ -118,7 +122,10 @@ namespace ManipelandoStrings
             string numero_formatado = String.Format("Numero{0}"," teste");
             MessageBox.Show(numero_formatado);
 
+
+
         }
+
     }
     }
 
